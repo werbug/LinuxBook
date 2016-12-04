@@ -37,7 +37,7 @@ _swig2.default.setDefaults({
 new _book_router.Main(app);
 
 app.get("/", function (req, res) {
-  res.render("demo");
+  res.render("demo.html");
 });
 
 // 设置文件后缀的解释器  配置 render 输出的文件的解释器，编译

@@ -197,13 +197,13 @@ require(["jquery"],function($){
 		$(this).css("color","#6DDB4F").siblings().css("color","#333")
 	});
 
-	$("#demo").on("click","div",function(){
+	$("#demo").on("click",function(){
 		window.location.href = "../book/dist/html/demo.html";
 	});
-	$("#blog").on("click","div",function(){
+	$("#blog").click(function(){
 		window.location.href = "blog.html";
 	});
-	$("#scrawl").on("click","div",function(){
+	$("#scrawl").click(function(){
 		window.location.href = "scrawl.html";
 	});
 	
