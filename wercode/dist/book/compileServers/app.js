@@ -50,9 +50,9 @@ app.set("views", _path2.default.join(__dirname, "../dist/html"));
 //可以直接从浏览器请求这个文件
 app.use(_express2.default.static(_path2.default.join(__dirname, "../dist")));
 
-var server = app.listen(80, function () {
+/*var server = app.listen(80, function () {
   var host = server.address().address;
   var port = server.address().port;
 
   console.log("http:", host, port);
-});
+});*/
